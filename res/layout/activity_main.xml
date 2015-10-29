@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scaleviewpager.MainActivity"
+    android:id="@+id/pager_layout"
+    android:clipChildren="false"
+     >
+     
+    <com.example.scaleviewpager.ClipViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="@dimen/pager_margin"
+        android:layout_marginRight="@dimen/pager_margin"
+        android:layout_alignParentTop="true"
+	    android:layout_marginTop="10dp"
+	    android:layout_centerInParent="true"
+	    android:clipChildren="false"
+			    
+         />
+
+</RelativeLayout>
